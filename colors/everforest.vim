@@ -1527,11 +1527,11 @@ highlight! link FernWindowSelectStatusLine TabLine
 " syn_end }}}
 " syn_begin: neo-tree {{{
 " https://github.com/nvim-neo-tree/neo-tree.nvim
-" if !s:configuration.transparent_background
-"   call everforest#highlight('NeoTreeNormal', s:palette.fg, s:palette.bg_dim)
-"   call everforest#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
-"   call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
-" endif
+if !s:configuration.transparent_background
+  call everforest#highlight('NeoTreeNormal', s:palette.fg, s:palette.bg_dim)
+  call everforest#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
+  call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
+endif
 highlight! link NeoTreeDirectoryIcon Orange
 highlight! link NeoTreeGitAdded Green
 highlight! link NeoTreeGitConflict Yellow
