@@ -1532,20 +1532,20 @@ highlight! link FernWindowSelectStatusLine TabLine
 "   call everforest#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
 "   call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
 " endif
-" highlight! link NeoTreeDirectoryIcon Orange
-" highlight! link NeoTreeGitAdded Green
-" highlight! link NeoTreeGitConflict Yellow
-" highlight! link NeoTreeGitDeleted Red
-" highlight! link NeoTreeGitIgnored Grey
-" highlight! link NeoTreeGitModified Blue
-" highlight! link NeoTreeGitUnstaged Purple
-" highlight! link NeoTreeGitUntracked Fg
-" highlight! link NeoTreeGitStaged Purple
-" highlight! link NeoTreeDimText Grey
-" highlight! link NeoTreeIndentMarker NonText
-" highlight! link NeoTreeNormalNC NeoTreeNormal
-" highlight! link NeoTreeSignColumn NeoTreeNormal
-" highlight! link NeoTreeRootName Title
+highlight! link NeoTreeDirectoryIcon Orange
+highlight! link NeoTreeGitAdded Green
+highlight! link NeoTreeGitConflict Yellow
+highlight! link NeoTreeGitDeleted Red
+highlight! link NeoTreeGitIgnored Grey
+highlight! link NeoTreeGitModified Blue
+highlight! link NeoTreeGitUnstaged Purple
+highlight! link NeoTreeGitUntracked Fg
+highlight! link NeoTreeGitStaged Purple
+highlight! link NeoTreeDimText Grey
+highlight! link NeoTreeIndentMarker NonText
+highlight! link NeoTreeNormalNC NeoTreeNormal
+highlight! link NeoTreeSignColumn NeoTreeNormal
+highlight! link NeoTreeRootName Title
 " syn_end }}}
 " syn_begin: octo {{{
 " https://github.com/pwntester/octo.nvim
